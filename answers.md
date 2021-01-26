@@ -1,6 +1,9 @@
 Answer 1 
+
 "git version 2.30.0.windows.2" 
+
 Answer 2
+
 "diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -17,7 +20,9 @@ credential.https://dev.azure.com.usehttppath=true
 init.defaultbranch=master
 user.name=Alex Trombold
 user.email=at354216@ohio.edu"
+
 Answer 3
+
 "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
@@ -63,3 +68,101 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system."
+
+Answer 4
+
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        answers.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Answer 5
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        answers.md
+
+Answer 6 
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answers.md
+
+Answer 7
+
+On branch master
+nothing to commit, working tree clean
+
+Answer 8 
+
+commit 3162f79d13ecae9ecf81a05b2184cb718781d046 (HEAD -> master)
+Author: Alex Trombold <at354216@ohio.edu>
+Date:   Tue Jan 26 10:01:02 2021 -0500
+
+    Initial commit
+
+Answer 9 
+
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Answer 10
+
+No nothing changed in local file when changed online
+
+Answer 11
+
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/alextrombold/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details. 
+it got rejected to keep version control
+
+Answer 12 
+
+they were reflected 
+heres the message
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 719 bytes | 71.00 KiB/s, done.
+From https://github.com/alextrombold/git-lab
+   a860fbb..29558cd  main       -> origin/main
+Updating a860fbb..29558cd
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+ Answer 13 
+
+ 01/26/2021  10:19 AM    <DIR>          .
+01/26/2021  10:19 AM    <DIR>          ..
+01/26/2021  10:19 AM               302 .gitignore
+01/26/2021  10:19 AM                11 README.md
+               2 File(s)            313 bytes
+               2 Dir(s)  79,865,577,472 bytes free
+               
